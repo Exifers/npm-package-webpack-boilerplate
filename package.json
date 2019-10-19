@@ -1,0 +1,27 @@
+{
+  "name": "npm-package-webpack-boilerplate",
+  "version": "1.0.0",
+  "public": true,
+  "description": "A ready to use project skeleton to publish a package on npm with webpack, babel and jest.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "author": "Exifers",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "files": [
+    "dist/main.min.js"
+  ]
+}
